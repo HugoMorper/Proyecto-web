@@ -13,10 +13,31 @@
                 <h1>Log in</h1>
             </header>
         </section>
-
+            <form class="bigbox" style="background-color:#A9D0F5">
+                <form class="middlebox" style="background-color:#A9D0F5">
+                    <center>
+                        <form class="littlebox">
+                            <label for="name">Nombre</label><br>
+                            <input type="text" name="name"><br>
+                            <label for="id">Matricula</label><br>
+                            <input type="number" name="id" maxlength="9"><br>
+                            <label for="age">Edad</label><br>
+                            <input type="number" name="age" maxlength="2"><br>
+                            <label for="grade">Semestre</label><br>
+                            <input type="number" name="grade" maxlength="2"><br>
+                        </form>
+                    </center>
+                </form>
+                    <form class="photo" enctype="multipart/form-data" action="upload.php" method="post" style="background-color:#A9D0F5">
+                        <input name="uploadfile" type="file"/>
+                        <input type="submit" value="Subir foto"/>
+                    </form>
+                <button type="button">R
+                    egistrar</button>
+            </form>
         <section>
             <footer>
-                <p> fotter</p>
+                <p> footer</p>
             </footer>
         </section>
     </body>

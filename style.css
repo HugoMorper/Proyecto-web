@@ -1,24 +1,24 @@
-.header
+header
  {
-    background: #B404AE;
+    background: #81BEF7;
     padding: 20px;
-     width: 100;
+     width: 500px;
      height: auto;
      text-align: center;
  }
 
-.body
+body
 {
-   background-color: #7863E7;
+   background-color: #0000;
     font-family: Arial;
 }
 
-.foot
+foot
 {
     text-align: center;
 }
 
-.responsive
+responsive
 {
     width: 100%;
     height:420px
@@ -26,5 +26,31 @@
 
 h1
 {
-  color: aliceblue
+  color:crimson
 }
+
+.bigbox
+{
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.middlebox
+{
+
+}
+
+.littlebox
+{
+    width: 200px;
+    text-align: left;
+}
+
+.photo
+{
+    width: 500px;
+    padding: 20px;
+}
+
+
