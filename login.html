@@ -1,19 +1,27 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <meta charset="iso-8859-1">
+        <meta name ="proyecto" content = "Proyecto final appweb">
+        <meta name ="keywords" content = "HTML5,CSS3">
+        <title>Log in</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <h1>Ingresar</h1>
         <form action="login.php" method="POST">
-            <label for="usuario">Usuario:</label>
-            <input type="text" name="usuario" id="usuario" placeholder="Nombre de ususario" required>
+            <div>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre de ususario" required>
 
-            <label for="password">Contraseña:</label>
-            <input type="password" name="password" id="password" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password" required>
 
-            <button type="submit">Ingresar</button><br>
-            <p><a href="registrar_alumno.php">No estoy registrado.</a></p>
+                <button type="submit">Ingresar</button><br>
+            </div>
         </form>
     </body>
     <footer>
+        <p><a href="registro_alumno.html">No estoy registrado.</a></p>
     </footer>
 </html>
