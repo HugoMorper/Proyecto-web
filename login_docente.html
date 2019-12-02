@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>formulario docente</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Registro docente</h1>
+        <form action="registrar_docente.php" method="post">
+            <div>
+                <label for="id">Matricula de docente</label><br>
+                <input type="number" name="id" id="id" placeholder="9 digitos" required><br>
+
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombres" required><br>
+
+                <label for="edad">Edad</label><br>
+                <input type="number" name="edad" id="edad" required><br>
+
+                <label for="grado">Grado</label><br>
+                <input type="text" name="grado" id="grado" placeholder="Grado de estudios" required><br>
+
+                <label for="especialidad">Especialidad</label><br>
+                <input type="text" name="especialidad" id="especialidad" placeholder="Especialidad" required><br>
+
+                <label for="password">Contraseña</label><br>
+                <input type="password" name="password" id="password" required><br>
+
+                <input name="imagen" type="file"/><br><br>
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+    </body>
+    <footer>
+        <p><a href=''>Inicio</a></p>
+    </footer>
+</html>
