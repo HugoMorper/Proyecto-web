@@ -4,13 +4,13 @@
         <meta charset="iso-8859-1">
         <meta name ="proyecto" content = "Proyecto final appweb">
         <meta name ="keywords" content = "HTML5,CSS3">
-        <title>Log in</title>
+        <title>Registro_alumno</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="body">
-            <form action="registrar_alumno.php" method="POST" class="bigbox" style="background-color:#A9D0F5">
-                <h1 class="form_titulo">Log in</h1>
-                <div class="littlebox">
+            <form action="registrar_alumno.php" method="POST"  enctype="multipart/form-data">
+                <h1>registro de alumno</h1>
+                <div>
 
                     <label for="id">Matricula</label><br>
                     <input type="number" name="id" id="id" placeholder="9 digitos" required><br>
@@ -27,18 +27,16 @@
                     <label for="password">Contraseña</label><br>
                     <input type="password" name="password" id="password" placeholder=" maximo 20 digitos" required>
                     <br>
-                </div><br><br>
-                <div>
+
+                    <label for="imagen">Imagen (opcional)</label><br>
                     <input name="imagen" type="file"/>
                     <br><br>
                     <button type="submit">Registrar</button>
                 </div>
             </form>
             <footer>
-                <center>
                     <p><a href='registro_docente.html'>Soy docente</a>
                     <a href='login.html'>Inicio</a></p>
-                </center>
             </footer>
     </body>
 </html>

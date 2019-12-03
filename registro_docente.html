@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>formulario docente</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Registro docente</h1>
-        <form action="registrar_docente.php" method="post">
+        <form action="registrar_docente.php" enctype="multipart/form-data" method="post">
             <div>
                 <label for="id">Matricula de docente</label><br>
                 <input type="number" name="id" id="id" placeholder="9 digitos" required><br>
@@ -27,6 +27,7 @@
                 <label for="password">Contraseña</label><br>
                 <input type="password" name="password" id="password" required><br>
 
+                <label for="imagen">Imagen (opcional)</label><br>
                 <input name="imagen" type="file"/><br><br>
                 <button type="submit">Registrar</button>
             </div>

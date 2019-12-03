@@ -9,7 +9,7 @@ $nombre = $_POST["nombre"];
 $edad = $_POST["edad"];
 $semestre = $_POST["semestre"];
 $password = $_POST["password"];
-$imagen = addslashes(file_get_contents($_FILES["imagen"]['tmp_name']));
+$imagen = addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
 
 //consulta de insercion
 $insertar = "INSERT INTO alumnos(id,nombre,edad,semestre,password,imagen) VALUES ('$id','$nombre','$edad','$semestre','$password','$imagen')";

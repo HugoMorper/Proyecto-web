@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <meta charset="iso-8859-1">
+        <meta name ="proyecto" content = "Proyecto final appweb">
+        <meta name ="keywords" content = "HTML5,CSS3">
+        <title>Registro_mateias</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="registrar_materias.php" method="post" enctype="multipart/form-data">
+            <h1>Registro de materias</h1>
+            <div>
+                <label for="nombre">Nombre de la materia</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre de la materia" required><br>
+
+                <label for="profesor">Profesor</label><br>
+                <input type="text" name="profesor" id="profesor" placeholder="Nombre completo" required><br>
+
+                <label for="contenido">Contenido</label><br>
+                <input type="text" name="temas" id="temas" placeholder="Lista de temas" required>
+                <input type="text" name="subtemas" id="subtemas" placeholder="Lista de subtemas" required><br><br>
+                <label for="imagen">Imagen del temario (opcional)</label><br>
+                <input name="imagen" type="file"/><br><br>
+                <button type="submit">Registrar</button>
+
+            </div>
+        </form>
+    </body>
+    <footer>
+        <p><a href='login.html'>Inicio</a></p>
+    </footer>
+</html>
