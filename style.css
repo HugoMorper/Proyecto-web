@@ -11,6 +11,15 @@
     border-bottom: 3px solid darkred;
 }
 
+.columna
+{
+    float:right;
+    margin: 10px 0px;
+    padding: 20px;
+    text-align:right;
+
+}
+
 body
 {
     margin: 0;
@@ -53,6 +62,46 @@ h1
     width: 100%;
 }
 
+
+@media screen and (max-width:1920px)
+{
+    aside{
+        float: right;
+        width: 10%;
+    }
+    section{
+        float: left;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1024px)
+{
+    aside{
+        float: right;
+        margin: 0 1.5%;
+        width: 15%;
+    }
+    section{
+        float: left;
+        margin: 0 1.5%;
+        width 75%;
+    }
+    nav{}
+}
+
+@media screen and (max-width:480px){
+    aside{
+        float: right;
+        margin: 0 1.5%;
+        width: 20%;
+    }
+    section{
+        float: left;
+        margin: 0 1.5%;
+        width: 35%;
+    }
+}
 
 
 
